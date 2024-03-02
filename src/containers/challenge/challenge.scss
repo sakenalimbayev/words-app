@@ -1,0 +1,15 @@
+.challenge-board-element {
+    width: 500px;
+    height: 500px;
+    background-color: lightgray;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .challenge-word {
+        display: flex;
+        padding-top: 50px;
+    }
+}
